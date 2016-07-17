@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # billyn
+=======
+# billyn property
+>>>>>>> 7df0ed2638c621c7583aafa48a6cff2cc2cb5c58
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.3.0.
 
