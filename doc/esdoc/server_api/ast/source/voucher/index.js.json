@@ -1,0 +1,2800 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          0,
+          12
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        0,
+        13
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "express",
+            "range": [
+              19,
+              26
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 11
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                29,
+                36
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 14
+                },
+                "end": {
+                  "line": 3,
+                  "column": 21
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "express",
+                "raw": "'express'",
+                "range": [
+                  37,
+                  46
+                ],
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 22
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 31
+                  }
+                }
+              }
+            ],
+            "range": [
+              29,
+              47
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 14
+              },
+              "end": {
+                "line": 3,
+                "column": 32
+              }
+            }
+          },
+          "range": [
+            19,
+            47
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 4
+            },
+            "end": {
+              "line": 3,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        15,
+        48
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "controller",
+            "range": [
+              53,
+              63
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 14
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                66,
+                73
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 17
+                },
+                "end": {
+                  "line": 4,
+                  "column": 24
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "./voucher.controller",
+                "raw": "'./voucher.controller'",
+                "range": [
+                  74,
+                  96
+                ],
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 25
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 47
+                  }
+                }
+              }
+            ],
+            "range": [
+              66,
+              97
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 17
+              },
+              "end": {
+                "line": 4,
+                "column": 48
+              }
+            }
+          },
+          "range": [
+            53,
+            97
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "end": {
+              "line": 4,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        49,
+        98
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 49
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              104,
+              110
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 10
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "express",
+                "range": [
+                  113,
+                  120
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 20
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Router",
+                "range": [
+                  121,
+                  127
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 27
+                  }
+                }
+              },
+              "range": [
+                113,
+                127
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 13
+                },
+                "end": {
+                  "line": 6,
+                  "column": 27
+                }
+              }
+            },
+            "arguments": [],
+            "range": [
+              113,
+              129
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 13
+              },
+              "end": {
+                "line": 6,
+                "column": 29
+              }
+            }
+          },
+          "range": [
+            104,
+            129
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        100,
+        130
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 30
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "for user voucher table",
+          "range": [
+            132,
+            156
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 24
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/users', controller.findAllUserVoucher);",
+          "range": [
+            157,
+            211
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0
+            },
+            "end": {
+              "line": 9,
+              "column": 54
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/users/', controller.addUserVoucher);",
+          "range": [
+            212,
+            264
+          ],
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 52
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/users/:id', controller.deleteUserVoucher);",
+          "range": [
+            265,
+            325
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 0
+            },
+            "end": {
+              "line": 11,
+              "column": 60
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher type table",
+          "range": [
+            327,
+            351
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 13,
+              "column": 24
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/types', controller.getTypes);",
+          "range": [
+            352,
+            396
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 44
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/types/:id', controller.getType);",
+          "range": [
+            397,
+            444
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 15,
+              "column": 47
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/types/', controller.addType);",
+          "range": [
+            445,
+            490
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 45
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/type/:id', controller.deleteType);",
+          "range": [
+            491,
+            543
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 52
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher attribute table",
+          "range": [
+            545,
+            574
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 0
+            },
+            "end": {
+              "line": 19,
+              "column": 29
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/attributes', controller.findAllAttribute);",
+          "range": [
+            575,
+            632
+          ],
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 57
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/attributes', controller.addAttribute);",
+          "range": [
+            633,
+            687
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 54
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/attributes/:id', controller.deleteAttribute);",
+          "range": [
+            688,
+            751
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 63
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher permit table",
+          "range": [
+            753,
+            779
+          ],
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 26
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/permit', controller.findAllPermit);",
+          "range": [
+            780,
+            830
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 0
+            },
+            "end": {
+              "line": 25,
+              "column": 50
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/permit', controller.addPermit);",
+          "range": [
+            831,
+            878
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 47
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/permit/:id', controller.deletePermit);",
+          "range": [
+            879,
+            935
+          ],
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 56
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher timeslot table",
+          "range": [
+            937,
+            965
+          ],
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 28
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/timeslot', controller.findAllTimeslot);",
+          "range": [
+            966,
+            1020
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 0
+            },
+            "end": {
+              "line": 30,
+              "column": 54
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/timeslot', controller.addTimeslot);",
+          "range": [
+            1021,
+            1072
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 31,
+              "column": 51
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/timeslot/:id', controller.deleteTimeslot);",
+          "range": [
+            1073,
+            1133
+          ],
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 60
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "default function for voucher table",
+          "range": [
+            1135,
+            1171
+          ],
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 0
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1172,
+              1178
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              1179,
+              1182
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 7
+              },
+              "end": {
+                "line": 35,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            1172,
+            1182
+          ],
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/",
+            "raw": "'/'",
+            "range": [
+              1183,
+              1186
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 11
+              },
+              "end": {
+                "line": 35,
+                "column": 14
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1188,
+                1198
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 16
+                },
+                "end": {
+                  "line": 35,
+                  "column": 26
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "index",
+              "range": [
+                1199,
+                1204
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 27
+                },
+                "end": {
+                  "line": 35,
+                  "column": 32
+                }
+              }
+            },
+            "range": [
+              1188,
+              1204
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 16
+              },
+              "end": {
+                "line": 35,
+                "column": 32
+              }
+            }
+          }
+        ],
+        "range": [
+          1172,
+          1205
+        ],
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": 33
+          }
+        }
+      },
+      "range": [
+        1172,
+        1206
+      ],
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 34
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "for user voucher table",
+          "range": [
+            132,
+            156
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 24
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/users', controller.findAllUserVoucher);",
+          "range": [
+            157,
+            211
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0
+            },
+            "end": {
+              "line": 9,
+              "column": 54
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/users/', controller.addUserVoucher);",
+          "range": [
+            212,
+            264
+          ],
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 52
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/users/:id', controller.deleteUserVoucher);",
+          "range": [
+            265,
+            325
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 0
+            },
+            "end": {
+              "line": 11,
+              "column": 60
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher type table",
+          "range": [
+            327,
+            351
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 13,
+              "column": 24
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/types', controller.getTypes);",
+          "range": [
+            352,
+            396
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 44
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/types/:id', controller.getType);",
+          "range": [
+            397,
+            444
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 15,
+              "column": 47
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/types/', controller.addType);",
+          "range": [
+            445,
+            490
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 0
+            },
+            "end": {
+              "line": 16,
+              "column": 45
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/type/:id', controller.deleteType);",
+          "range": [
+            491,
+            543
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 52
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher attribute table",
+          "range": [
+            545,
+            574
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 0
+            },
+            "end": {
+              "line": 19,
+              "column": 29
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/attributes', controller.findAllAttribute);",
+          "range": [
+            575,
+            632
+          ],
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 57
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/attributes', controller.addAttribute);",
+          "range": [
+            633,
+            687
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 54
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/attributes/:id', controller.deleteAttribute);",
+          "range": [
+            688,
+            751
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 63
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher permit table",
+          "range": [
+            753,
+            779
+          ],
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 26
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/permit', controller.findAllPermit);",
+          "range": [
+            780,
+            830
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 0
+            },
+            "end": {
+              "line": 25,
+              "column": 50
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/permit', controller.addPermit);",
+          "range": [
+            831,
+            878
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 47
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/permit/:id', controller.deletePermit);",
+          "range": [
+            879,
+            935
+          ],
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 56
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "for voucher timeslot table",
+          "range": [
+            937,
+            965
+          ],
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 28
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.get('/timeslot', controller.findAllTimeslot);",
+          "range": [
+            966,
+            1020
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 0
+            },
+            "end": {
+              "line": 30,
+              "column": 54
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.post('/timeslot', controller.addTimeslot);",
+          "range": [
+            1021,
+            1072
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 31,
+              "column": 51
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "router.delete('/timeslot/:id', controller.deleteTimeslot);",
+          "range": [
+            1073,
+            1133
+          ],
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 60
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "default function for voucher table",
+          "range": [
+            1135,
+            1171
+          ],
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 0
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "router.get('/types', controller.getTypes);",
+          "range": [
+            1207,
+            1251
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 44
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1252,
+              1258
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 37,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              1259,
+              1262
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 7
+              },
+              "end": {
+                "line": 37,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            1252,
+            1262
+          ],
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 37,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1263,
+              1269
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 11
+              },
+              "end": {
+                "line": 37,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1271,
+                1281
+              ],
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 19
+                },
+                "end": {
+                  "line": 37,
+                  "column": 29
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "show",
+              "range": [
+                1282,
+                1286
+              ],
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 30
+                },
+                "end": {
+                  "line": 37,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              1271,
+              1286
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 19
+              },
+              "end": {
+                "line": 37,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "range": [
+          1252,
+          1287
+        ],
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 37,
+            "column": 35
+          }
+        }
+      },
+      "range": [
+        1252,
+        1288
+      ],
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 36
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "router.get('/types', controller.getTypes);",
+          "range": [
+            1207,
+            1251
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "router.post('/types', controller.addType);",
+          "range": [
+            1289,
+            1333
+          ],
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 0
+            },
+            "end": {
+              "line": 38,
+              "column": 44
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1334,
+              1340
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 0
+              },
+              "end": {
+                "line": 39,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              1341,
+              1345
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 7
+              },
+              "end": {
+                "line": 39,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            1334,
+            1345
+          ],
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 0
+            },
+            "end": {
+              "line": 39,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/",
+            "raw": "'/'",
+            "range": [
+              1346,
+              1349
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 12
+              },
+              "end": {
+                "line": 39,
+                "column": 15
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1351,
+                1361
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 17
+                },
+                "end": {
+                  "line": 39,
+                  "column": 27
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "create",
+              "range": [
+                1362,
+                1368
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 28
+                },
+                "end": {
+                  "line": 39,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              1351,
+              1368
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 17
+              },
+              "end": {
+                "line": 39,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "range": [
+          1334,
+          1369
+        ],
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 0
+          },
+          "end": {
+            "line": 39,
+            "column": 35
+          }
+        }
+      },
+      "range": [
+        1334,
+        1370
+      ],
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 36
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "router.post('/types', controller.addType);",
+          "range": [
+            1289,
+            1333
+          ],
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 0
+            },
+            "end": {
+              "line": 38,
+              "column": 44
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1371,
+              1377
+            ],
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 0
+              },
+              "end": {
+                "line": 40,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              1378,
+              1382
+            ],
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 7
+              },
+              "end": {
+                "line": 40,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            1371,
+            1382
+          ],
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 0
+            },
+            "end": {
+              "line": 40,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/bulk",
+            "raw": "'/bulk'",
+            "range": [
+              1383,
+              1390
+            ],
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 12
+              },
+              "end": {
+                "line": 40,
+                "column": 19
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1392,
+                1402
+              ],
+              "loc": {
+                "start": {
+                  "line": 40,
+                  "column": 21
+                },
+                "end": {
+                  "line": 40,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "bulkCreate",
+              "range": [
+                1403,
+                1413
+              ],
+              "loc": {
+                "start": {
+                  "line": 40,
+                  "column": 32
+                },
+                "end": {
+                  "line": 40,
+                  "column": 42
+                }
+              }
+            },
+            "range": [
+              1392,
+              1413
+            ],
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 21
+              },
+              "end": {
+                "line": 40,
+                "column": 42
+              }
+            }
+          }
+        ],
+        "range": [
+          1371,
+          1414
+        ],
+        "loc": {
+          "start": {
+            "line": 40,
+            "column": 0
+          },
+          "end": {
+            "line": 40,
+            "column": 43
+          }
+        }
+      },
+      "range": [
+        1371,
+        1415
+      ],
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1416,
+              1422
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 0
+              },
+              "end": {
+                "line": 41,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "patch",
+            "range": [
+              1423,
+              1428
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 7
+              },
+              "end": {
+                "line": 41,
+                "column": 12
+              }
+            }
+          },
+          "range": [
+            1416,
+            1428
+          ],
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 0
+            },
+            "end": {
+              "line": 41,
+              "column": 12
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1429,
+              1435
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 13
+              },
+              "end": {
+                "line": 41,
+                "column": 19
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1437,
+                1447
+              ],
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 21
+                },
+                "end": {
+                  "line": 41,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "update",
+              "range": [
+                1448,
+                1454
+              ],
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 32
+                },
+                "end": {
+                  "line": 41,
+                  "column": 38
+                }
+              }
+            },
+            "range": [
+              1437,
+              1454
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 21
+              },
+              "end": {
+                "line": 41,
+                "column": 38
+              }
+            }
+          }
+        ],
+        "range": [
+          1416,
+          1455
+        ],
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 0
+          },
+          "end": {
+            "line": 41,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        1416,
+        1456
+      ],
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 41,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1457,
+              1463
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 0
+              },
+              "end": {
+                "line": 42,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "delete",
+            "range": [
+              1464,
+              1470
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 7
+              },
+              "end": {
+                "line": 42,
+                "column": 13
+              }
+            }
+          },
+          "range": [
+            1457,
+            1470
+          ],
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 0
+            },
+            "end": {
+              "line": 42,
+              "column": 13
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1471,
+              1477
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 14
+              },
+              "end": {
+                "line": 42,
+                "column": 20
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1479,
+                1489
+              ],
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 22
+                },
+                "end": {
+                  "line": 42,
+                  "column": 32
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "destroy",
+              "range": [
+                1490,
+                1497
+              ],
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 33
+                },
+                "end": {
+                  "line": 42,
+                  "column": 40
+                }
+              }
+            },
+            "range": [
+              1479,
+              1497
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 22
+              },
+              "end": {
+                "line": 42,
+                "column": 40
+              }
+            }
+          }
+        ],
+        "range": [
+          1457,
+          1498
+        ],
+        "loc": {
+          "start": {
+            "line": 42,
+            "column": 0
+          },
+          "end": {
+            "line": 42,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        1457,
+        1499
+      ],
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module",
+            "range": [
+              1501,
+              1507
+            ],
+            "loc": {
+              "start": {
+                "line": 44,
+                "column": 0
+              },
+              "end": {
+                "line": 44,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports",
+            "range": [
+              1508,
+              1515
+            ],
+            "loc": {
+              "start": {
+                "line": 44,
+                "column": 7
+              },
+              "end": {
+                "line": 44,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            1501,
+            1515
+          ],
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 0
+            },
+            "end": {
+              "line": 44,
+              "column": 14
+            }
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "router",
+          "range": [
+            1518,
+            1524
+          ],
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 17
+            },
+            "end": {
+              "line": 44,
+              "column": 23
+            }
+          }
+        },
+        "range": [
+          1501,
+          1524
+        ],
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 0
+          },
+          "end": {
+            "line": 44,
+            "column": 23
+          }
+        }
+      },
+      "range": [
+        1501,
+        1525
+      ],
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 24
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1525
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 44,
+      "column": 24
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": "for user voucher table",
+      "range": [
+        132,
+        156
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/users', controller.findAllUserVoucher);",
+      "range": [
+        157,
+        211
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/users/', controller.addUserVoucher);",
+      "range": [
+        212,
+        264
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.delete('/users/:id', controller.deleteUserVoucher);",
+      "range": [
+        265,
+        325
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "for voucher type table",
+      "range": [
+        327,
+        351
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/types', controller.getTypes);",
+      "range": [
+        352,
+        396
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/types/:id', controller.getType);",
+      "range": [
+        397,
+        444
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/types/', controller.addType);",
+      "range": [
+        445,
+        490
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.delete('/type/:id', controller.deleteType);",
+      "range": [
+        491,
+        543
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "for voucher attribute table",
+      "range": [
+        545,
+        574
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/attributes', controller.findAllAttribute);",
+      "range": [
+        575,
+        632
+      ],
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 57
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/attributes', controller.addAttribute);",
+      "range": [
+        633,
+        687
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.delete('/attributes/:id', controller.deleteAttribute);",
+      "range": [
+        688,
+        751
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "for voucher permit table",
+      "range": [
+        753,
+        779
+      ],
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/permit', controller.findAllPermit);",
+      "range": [
+        780,
+        830
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/permit', controller.addPermit);",
+      "range": [
+        831,
+        878
+      ],
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 47
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.delete('/permit/:id', controller.deletePermit);",
+      "range": [
+        879,
+        935
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "for voucher timeslot table",
+      "range": [
+        937,
+        965
+      ],
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/timeslot', controller.findAllTimeslot);",
+      "range": [
+        966,
+        1020
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/timeslot', controller.addTimeslot);",
+      "range": [
+        1021,
+        1072
+      ],
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 51
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.delete('/timeslot/:id', controller.deleteTimeslot);",
+      "range": [
+        1073,
+        1133
+      ],
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 60
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "default function for voucher table",
+      "range": [
+        1135,
+        1171
+      ],
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/types', controller.getTypes);",
+      "range": [
+        1207,
+        1251
+      ],
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/types', controller.addType);",
+      "range": [
+        1289,
+        1333
+      ],
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 44
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "coverage": "9.83%",
+  "expectCount": 183,
+  "actualCount": 18,
+  "files": {
+    "api/trade/account.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "api/attribute/attribute.controller.js": {
+      "expectCount": 9,
+      "actualCount": 0,
+      "undocumentLines": [
+        127,
+        134,
+        81,
+        104,
+        116,
+        141,
+        62,
+        69,
+        88
+      ]
+    },
+    "api/permit/permit.controller.js": {
+      "expectCount": 15,
+      "actualCount": 0,
+      "undocumentLines": [
+        334,
+        202,
+        195,
+        115,
+        303,
+        160,
+        172,
+        215,
+        235,
+        124,
+        281,
+        184,
+        66,
+        103,
+        144
+      ]
+    },
+    "api/role/role.controller.js": {
+      "expectCount": 16,
+      "actualCount": 0,
+      "undocumentLines": [
+        181,
+        400,
+        173,
+        207,
+        357,
+        301,
+        99,
+        131,
+        408,
+        361,
+        308,
+        142,
+        196,
+        66,
+        87,
+        107
+      ]
+    },
+    "api/collab/collab.controller.js": {
+      "expectCount": 15,
+      "actualCount": 1,
+      "undocumentLines": [
+        254,
+        261,
+        210,
+        154,
+        242,
+        315,
+        268,
+        324,
+        482,
+        560,
+        306,
+        72,
+        129,
+        226
+      ]
+    },
+    "api/voucher/voucher.controller.js": {
+      "expectCount": 14,
+      "actualCount": 0,
+      "undocumentLines": [
+        384,
+        224,
+        369,
+        152,
+        139,
+        373,
+        182,
+        193,
+        199,
+        597,
+        556,
+        69,
+        78,
+        166
+      ]
+    },
+    "api/app/app.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/attribute/attribute.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/user/user.controller.js": {
+      "expectCount": 8,
+      "actualCount": 7,
+      "undocumentLines": [
+        183
+      ]
+    },
+    "api/app/app.controller.js": {
+      "expectCount": 8,
+      "actualCount": 4,
+      "undocumentLines": [
+        173,
+        204,
+        184,
+        157
+      ]
+    },
+    "api/category/category.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/circle/circle.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "api/collab/circleCollab.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "api/circle/circleSpace.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "api/collab/collab.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "api/collab/collabRole.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/trade/trade.controller.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        81,
+        133,
+        144,
+        62,
+        69,
+        117
+      ]
+    },
+    "api/product/product.controller.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        81,
+        133,
+        144,
+        62,
+        69,
+        117
+      ]
+    },
+    "api/point/point.controller.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        81,
+        133,
+        144,
+        62,
+        69,
+        117
+      ]
+    },
+    "api/space/space.controller.js": {
+      "expectCount": 7,
+      "actualCount": 5,
+      "undocumentLines": [
+        330,
+        307
+      ]
+    },
+    "api/wechat/wechat.controller.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        81,
+        104,
+        62,
+        69,
+        88
+      ]
+    },
+    "api/thing/thing.controller.js": {
+      "expectCount": 5,
+      "actualCount": 0,
+      "undocumentLines": [
+        81,
+        105,
+        62,
+        69,
+        89
+      ]
+    },
+    "api/nut/nut.controller.js": {
+      "expectCount": 7,
+      "actualCount": 1,
+      "undocumentLines": [
+        102,
+        155,
+        167,
+        72,
+        82,
+        139
+      ]
+    },
+    "api/timeslot/timeslot.controller.js": {
+      "expectCount": 6,
+      "actualCount": 0,
+      "undocumentLines": [
+        81,
+        133,
+        144,
+        62,
+        69,
+        117
+      ]
+    },
+    "api/category/category.controller.js": {
+      "expectCount": 7,
+      "actualCount": 0,
+      "undocumentLines": [
+        83,
+        107,
+        118,
+        63,
+        71,
+        135,
+        91
+      ]
+    },
+    "api/nut/nut.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/permit/permit.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/permit/permitRole.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/point/pointAccount.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "api/point/pointPermit.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        13
+      ]
+    },
+    "api/trade/price.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        5
+      ]
+    },
+    "api/product/product.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "api/product/productSpec.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "api/attribute/attribute.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/space/space.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/wechat/wechat.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/product/product.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/voucher/voucher.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/nut/nut.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/permit/permit.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/trade/trade.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/thing/thing.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/circle/circle.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/point/point.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/app/app.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/timeslot/timeslot.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/role/role.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/collab/collab.socket.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/_old_role/role.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        10
+      ]
+    },
+    "api/role/role.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        12
+      ]
+    },
+    "api/space/space.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/app/spaceApp.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "api/thing/thing.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "api/timeslot/timeslot.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/_old_role/userRole.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        7
+      ]
+    },
+    "api/role/userRole.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "api/voucher/voucher.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        8
+      ]
+    },
+    "api/voucher/voucherUser.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        6
+      ]
+    },
+    "api/wechat/wechat.model.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    }
+  }
+}

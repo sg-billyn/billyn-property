@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">api/space/space.controller.js | API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">_old_role</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-role">role</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-userRole">userRole</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">app</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bulkCreate">bulkCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAppsInSpace">findAppsInSpace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-joinSpace">joinSpace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-app">app</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-spaceApp">spaceApp</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">attribute</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addAttribute">addAttribute</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addAttributes">addAttributes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getAttribute">getAttribute</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getAttributes">getAttributes</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-attribute">attribute</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">category</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getChildren">getChildren</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-test">test</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-category">category</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">circle</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-circle">circle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-circleSpace">circleSpace</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">collab</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-circleCollab">circleCollab</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addCollabRole">addCollabRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bulkAddCollabRole">bulkAddCollabRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bulkCreate">bulkCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllColplayRole">findAllColplayRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllJoinableSpace">findAllJoinableSpace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllJoinedSpace">findAllJoinedSpace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllUserNutPermit">findAllUserNutPermit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllUserNutPermitByCollab">findAllUserNutPermitByCollab</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findCollabRole">findCollabRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-collab">collab</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-collabRole">collabRole</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">nut</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllPermitRole">findAllPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllUserPermitNut">findAllUserPermitNut</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nut">nut</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">permit</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addBulkPermitRole">addBulkPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addChild">addChild</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addPermit">addPermit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-createPermitRole">createPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroyPermitRole">destroyPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllPermitRole">findAllPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllUserPermitRole">findAllUserPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findOrCreate">findOrCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findPermitRole">findPermitRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getPermit">getPermit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-permit">permit</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-permitRole">permitRole</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">point</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findOrCreate">findOrCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pointAccount">pointAccount</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pointPermit">pointPermit</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">product</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findOrCreate">findOrCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-product">product</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-productSpec">productSpec</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">role</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addChild">addChild</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addGrants">addGrants</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addRole">addRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addUserRole">addUserRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-batchAdd">batchAdd</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-batchAddUserRole">batchAddUserRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllUserSpaceRole">findAllUserSpaceRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findUserRoles">findUserRoles</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getChildren">getChildren</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getRole">getRole</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getSpaceRoles">getSpaceRoles</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-role">role</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-userRole">userRole</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">space</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findUserSpaces">findUserSpaces</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-userJoin">userJoin</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-space">space</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">thing</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-thing">thing</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">timeslot</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findOrCreate">findOrCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-timeslot">timeslot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">trade</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-account">account</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-price">price</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findOrCreate">findOrCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">user</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-authCallback">authCallback</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-changePassword">changePassword</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-me">me</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-test">test</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">voucher</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addType">addType</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-addUserVoucher">addUserVoucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-batchAddUserVoucher">batchAddUserVoucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bulkCreate">bulkCreate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-deleteUserVoucher">deleteUserVoucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findAllUserVoucher">findAllUserVoucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-findUserVoucher">findUserVoucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getVoucher">getVoucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getVouchers">getVouchers</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-voucher">voucher</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-voucherUser">voucherUser</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">wechat</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-create">create</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-destroy">destroy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-index">index</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-show">show</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-update">update</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-wechat">wechat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-register">register</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">api/space/space.controller.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Using Rails-like standard naming convention for endpoints.
+ * GET     /api/spaces              -&gt;  index
+ * POST    /api/spaces              -&gt;  create
+ * GET     /api/spaces/:id          -&gt;  show
+ * PUT     /api/spaces/:id          -&gt;  update
+ * DELETE  /api/spaces/:id          -&gt;  destroy
+ * GET	   /api/spaces/user/:id     -&gt;  findUserSpaces
+ */
+
+/**
+ * Provides the base sever side restful api under space module
+ * 
+ * Using Rails-like standard naming convention for endpoints.
+ * 
+ * GET     /api/spaces              -&gt;  index
+ * POST    /api/spaces              -&gt;  create
+ * GET     /api/spaces/:id          -&gt;  show
+ * PUT     /api/spaces/:id          -&gt;  update
+ * DELETE  /api/spaces/:id          -&gt;  destroy
+ * GET	   /api/spaces/user/:id     -&gt;  findUserSpaces
+ * POST    /api/spaces/:id?userId   -&gt;  userJoin
+ * 
+ * @module server/api/space
+ */
+&apos;use strict&apos;;
+
+import _ from &apos;lodash&apos;;
+import {Space} from &apos;../../sqldb&apos;;
+import {UserRole} from &apos;../../sqldb&apos;;
+import {Role} from &apos;../../sqldb&apos;;
+import {Category} from &apos;../../sqldb&apos;;
+import {SpaceApp} from &apos;../../sqldb&apos;;
+import {App} from &apos;../../sqldb&apos;;
+import {Nut} from &apos;../../sqldb&apos;;
+import {User} from &apos;../../sqldb&apos;;
+import {PermitRole} from &apos;../../sqldb&apos;;
+import {Permit} from &apos;../../sqldb&apos;;
+import Sequelize from &apos;sequelize&apos;;
+
+var Promise = require(&apos;bluebird&apos;);
+
+function respondWithResult(res, statusCode) {
+
+    statusCode = statusCode || 200;
+    return function (entity) {
+        //console.log(&apos;response entity:&apos;, JSON.stringify(entity));
+        if (entity) {
+            res.status(statusCode).json(entity);
+        }
+    };
+}
+
+function saveUpdates(updates) {
+    return function (entity) {
+        return entity.updateAttributes(updates)
+            .then(updated =&gt; {
+                return updated;
+            });
+    };
+}
+
+function removeEntity(res) {
+    return function (entity) {
+        if (entity) {
+            return entity.destroy()
+                .then(() =&gt; {
+                    res.status(204).end();
+                });
+        }
+    };
+}
+
+function handleEntityNotFound(res) {
+    return function (entity) {
+        if (!entity) {
+            res.status(404).end();
+            return null;
+        }
+        return entity;
+    };
+}
+
+function handleError(res, statusCode) {
+    statusCode = statusCode || 500;
+    return function (err) {
+        res.status(statusCode).send(err);
+    };
+}
+
+/**
+ * get all spaces according to condition
+ * @method module:server/api/space.method:index
+ * @returns {Array} array of spaces, format like: [ {_id: xxx, name: xxx, apps:[], roles:[], type:{},...},...]
+ */
+export function index(req, res) {
+
+    App.belongsTo(Category, { as: &apos;type&apos; });
+    //App.belongsTo(Space, { as: &apos;space&apos; });
+    Space.belongsTo(Category, { as: &apos;type&apos; });
+    Space.hasMany(App, { as: &apos;apps&apos; });
+    Space.hasMany(Role, { as: &apos;roles&apos; });
+
+    var findData = req.body;
+    var includeData = [{
+        model: Category, as: &apos;type&apos;
+        //where: { _id: Sequelize.col(&apos;Spaces.typeId&apos;) }
+    }];
+    if (findData.type) {
+        Space.getType(findData.type)
+            .then(function (type) {
+                findData.typeId = type._id;
+                delete findData.type;
+                return Promise.resolve(findData);
+            }).then(function (findData) {
+                return Space.findAll({
+                    where: findData,
+                    include: [
+                        {
+                            model: Category,
+                            as: &apos;type&apos;
+                        },
+                        {
+                            model: App,
+                            as: &apos;apps&apos;,
+                            include: {
+                                model: Category, as: &apos;type&apos;
+                            }
+                        },
+                        {
+                            model: Role,
+                            as: &apos;roles&apos;,
+                            where: {
+                                fullname: {
+                                    $ne: &apos;root.role&apos;
+                                }
+                            }
+                        },
+                    ]
+                })
+            })
+            .then(respondWithResult(res))
+            .catch(handleError(res));
+    } else {
+        Space.findAll({
+            where: findData,
+            include: [
+                {
+                    model: Category,
+                    as: &apos;type&apos;
+                },
+                {
+                    model: App,
+                    as: &apos;apps&apos;,
+                    include: {
+                        model: Category, as: &apos;type&apos;
+                    }
+                },
+                {
+                    model: Role,
+                    as: &apos;roles&apos;,
+                    where: {
+                        fullname: {
+                            $ne: &apos;root.role&apos;
+                        }
+                    }
+                },
+            ]
+        })
+            .then(respondWithResult(res))
+            .catch(handleError(res));
+    }
+}
+
+/**
+ * get single space
+ * @method module:server/api/space.method:show
+ * @returns {Object} space object, format like: {_id: xxx, name: xxx, apps:[], roles:[], type:{},...}
+ */
+export function show(req, res) {
+
+    console.log(req.params.id);
+    if (req.params.id &amp;&amp; req.params.id === &apos;user&apos;) {
+        return findUserSpaces(req, res);
+    }
+
+    //console.log(&apos;1&apos;);
+
+    App.belongsTo(Category, { as: &apos;type&apos; });
+    //App.belongsTo(Space, { as: &apos;space&apos; });
+    Space.belongsTo(Category, { as: &apos;type&apos; });
+    Space.hasMany(App, { as: &apos;apps&apos; });
+    Space.hasMany(Role, { as: &apos;roles&apos; });
+
+    //console.log(&apos;2&apos;);
+
+    Space.find({
+        where: {
+            _id: req.params.id
+        },
+        include: [
+            {
+                model: Category,
+                as: &apos;type&apos;
+            },
+            {
+                model: App,
+                as: &apos;apps&apos;,
+                include: {
+                    model: Category, as: &apos;type&apos;
+                }
+            },
+            {
+                model: Role,
+                as: &apos;roles&apos;,
+                where: {
+                    fullname: {
+                        $ne: &apos;root.role&apos;
+                    }
+                }
+            },
+        ]
+    })
+        /*.then(function(space) {
+            //console.log(&apos;space:&apos;, JSON.stringify(space));
+            var oSpace = JSON.parse(JSON.stringify(space));
+            return Space.getType(space.typeId).then(function(type) {
+                oSpace.type = type;
+                return Promise.resolve(oSpace);
+            }).then(function(oSpace) {
+                //console.log(&apos;3 oSpace:&apos;,JSON.stringify(oSpace));
+                return App.findAll({
+                    where: {
+                        spaceId: oSpace._id
+                    },
+                    include: {
+                        model: Category,
+                        as: &apos;type&apos;
+                    }
+                });
+            }).then(function(sApps) {
+                //console.log(&apos;4 apps&apos;, apps);
+                //console.log(&apos;4 apps&apos;, JSON.stringify(sApps));
+                oSpace.apps = sApps;
+                //console.log(&apos;5 oSpace&apos;, JSON.stringify(oSpace));
+                return Promise.resolve(oSpace);
+            });
+        })*/
+        .then(handleEntityNotFound(res))
+        .then(respondWithResult(res))
+        .catch(handleError(res));
+}
+
+/**
+ * create a new space, this function call Space model add function to complete create of space
+ * please see Space.add function for more information of creating space
+ * @method module:server/api/space.method:create
+ * @param req.body {object}, format like: {name:xxx, alias:xxx, type:{name:xxx, alias:xxx}, roles: [{...}...]}
+ * @returns {Array} array of spaces, format like: [ {_id: xxx, name: xxx, apps:[], roles:[], type:{},...},...]
+ */
+export function create(req, res) {
+    //console.log(&apos;space create req.body:&apos;, JSON.stringify(req.body));
+    var spaceData = req.body;
+    Space.add(req.body)
+        .then(respondWithResult(res, 201))
+        .catch(handleError(res));
+    /*
+    var typeName;
+    var newSpace;
+    for (var key in spaceData) {
+        if (key.toLowerCase() === &apos;type&apos; || key.toLowerCase() === &apos;typename&apos;) {
+            typeName = spaceData[key];
+            delete spaceData[key];
+        }
+    }
+ 
+    if (typeName) {
+        Space.addType(typeName).then(function (type) {
+            spaceData.typeId = type._id;
+            Space.create(spaceData)
+                .then(function (space) {
+                    newSpace = JSON.parse(JSON.stringify(space));
+                    return Space.getType(space.typeId).then(function (type) {
+                        var newSpace = JSON.parse(JSON.stringify(space));
+                        newSpace.type = type;
+                        return Promise.resolve(newSpace);
+                    });
+                })
+                .then(respondWithResult(res, 201))
+                .catch(handleError(res));
+        })
+    } else {
+        Space.create(spaceData)
+            .then(function (space) {
+                newSpace = JSON.parse(JSON.stringify(space));
+                return Space.getType(space.typeId).then(function (type) {
+                    var newSpace = JSON.parse(JSON.stringify(space));
+                    newSpace.type = type;
+                    return Promise.resolve(newSpace);
+                });
+            })*/
+
+
+}
+
+// Updates an existing Space in the DB
+export function update(req, res) {
+    if (req.body._id) {
+        delete req.body._id;
+    }
+    Space.find({
+        where: {
+            _id: req.params.id
+        }
+    }).then(function (space) {
+        newSpace = JSON.parse(JSON.stringify(space));
+        return Space.getType(space.typeId).then(function (type) {
+            var newSpace = JSON.parse(JSON.stringify(space));
+            newSpace.type = type;
+            return Promise.resolve(newSpace);
+        });
+		  })
+        .then(handleEntityNotFound(res))
+        .then(saveUpdates(req.body))
+        .then(respondWithResult(res))
+        .catch(handleError(res));
+}
+
+// Deletes a Space from the DB
+export function destroy(req, res) {
+    Space.find({
+        where: {
+            _id: req.params.id
+        }
+    })
+        .then(handleEntityNotFound(res))
+        .then(removeEntity(res))
+        .catch(handleError(res));
+}
+
+/**
+ * create a new space, this function call Space model add function to complete create of space
+ * please see Space.add function for more information of creating space
+ * @method module:server/api/space.method:findUserSpaces
+ * @param req.query.userId {int} userId to join
+ * @returns {Array} array of spaces under user, format like: [ 
+ * {_id: xxx, name: xxx, roles:[], type:{}, apps: [ {_id:xxx, name: xxx, nuts: [{_id: xxx, name: xxx, permitRoles: [{
+ *      permit: {}, nut: {}, role: {}
+ * }]}]} ]...},...]
+ * attention is: apps array only contain apps user can access, meanwhile roles only contain user&apos;s roles under space
+ */
+export function findUserSpaces(req, res) {
+
+    //console.log(&apos;findUserSpaces req.params&apos;, JSON.stringify(req.params));
+    //console.log(&apos;findUserSpaces req.query&apos;, JSON.stringify(req.query));
+
+    App.belongsTo(Category, { as: &apos;type&apos; });
+
+    UserRole.belongsTo(Space, { as: &apos;space&apos; });
+    Space.belongsTo(Category, { as: &apos;type&apos; });
+    //console.log(&apos;in findUserSpaces&apos;);
+    //console.log(&apos;params:&apos;, JSON.stringify(req.params));
+    var query = req.query;
+    if (query) {
+        //console.log(&apos;findUserSpaces query&apos;, JSON.stringify(query));
+
+        Space.belongsTo(Category, { as: &apos;type&apos; });
+        //console.log(1);
+        Space.hasMany(Role, { as: &apos;roles&apos;, foreignKey: &apos;spaceId&apos; });
+        //console.log(2);
+        Role.belongsToMany(User, { through: &apos;UserRole&apos;, as: &apos;users&apos; });
+        //console.log(3);
+        Space.hasMany(App, { as: &apos;apps&apos; });
+        //console.log(4);
+        App.belongsTo(Category, { as: &apos;type&apos; });
+        //console.log(5);
+        App.hasMany(Nut, { as: &apos;nuts&apos; });
+        //console.log(6);
+        Nut.hasMany(PermitRole, { foreignKey: &apos;ownerId&apos;, as: &apos;permitRoles&apos; });
+        //console.log(7);
+        PermitRole.belongsTo(Permit, { as: &apos;permit&apos; });
+        //console.log(8);
+        PermitRole.belongsTo(Role, { as: &apos;role&apos; });
+        //console.log(9);
+
+        return Space.findAll({
+            include: [
+                {
+                    model: Category, as: &apos;type&apos;
+                },
+                {
+                    model: Role, as: &apos;roles&apos;,
+                    include: [
+                        {
+                            model: User, as: &apos;users&apos;,
+                            where: {
+                                _id: query.userId
+                            }
+                        }
+                    ]
+                },
+                {
+                    model: App, as: &apos;apps&apos;,
+                    include: [
+                        {
+                            model: Category, as: &apos;type&apos;
+                        },
+                        {
+                            model: Nut, as: &apos;nuts&apos;,
+                            include: [
+                                {
+                                    model: PermitRole, as: &apos;permitRoles&apos;,
+                                    where: {
+                                        &apos;owner&apos;: &apos;nut&apos;
+                                    },
+                                    include: [
+                                        {
+                                            model: Permit, as: &apos;permit&apos;
+                                        },
+                                        {
+                                            model: Role, as: &apos;role&apos;,
+                                            include: [
+                                                {
+                                                    model: User, as: &apos;users&apos;,
+                                                    where: {
+                                                        _id: query.userId
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }).then(function (spaces) {
+            //console.log(&apos;spaces: &apos;, JSON.stringify(spaces));
+            return Promise.resolve(spaces);
+        })
+            .then(respondWithResult(res))
+            .catch(handleError(res));
+    }
+}
+
+/**
+ * user join to space, by default, will add user as everyone role under space
+ * @method module:server/api/space.method:userJoin
+ * @param req.params.id {int} space id to join 
+ * @param req.query.userId {int} userId to join
+ * @returns {boolean} true -- created, otherwise error
+ */
+export function userJoin(req, res) {
+    var spaceId = req.params.id;
+    var userId = req.query.userId;
+    //  console.log(&quot;User &quot; + userId + &quot; request to join space &quot; + spaceId);
+
+    Role.add({
+        spaceId: spaceId,
+        name: &quot;everyone&quot;
+    }).then(function (role) {
+        return UserRole.findOrCreate({ userId: userId, roleId: role._id, spaceId: spaceId });
+    }).spread(function (created, entity) {
+        return Promise.resolve(true);
+    }).then(respondWithResult(res))
+        .catch(handleError(res));
+}
+
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.7)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
