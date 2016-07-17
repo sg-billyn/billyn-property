@@ -1,0 +1,3484 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          0,
+          12
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        0,
+        13
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "express",
+            "range": [
+              19,
+              26
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 11
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                29,
+                36
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 14
+                },
+                "end": {
+                  "line": 3,
+                  "column": 21
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "express",
+                "raw": "'express'",
+                "range": [
+                  37,
+                  46
+                ],
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 22
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 31
+                  }
+                }
+              }
+            ],
+            "range": [
+              29,
+              47
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 14
+              },
+              "end": {
+                "line": 3,
+                "column": 32
+              }
+            }
+          },
+          "range": [
+            19,
+            47
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 4
+            },
+            "end": {
+              "line": 3,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        15,
+        48
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "controller",
+            "range": [
+              53,
+              63
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 14
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                66,
+                73
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 17
+                },
+                "end": {
+                  "line": 4,
+                  "column": 24
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "./role.controller",
+                "raw": "'./role.controller'",
+                "range": [
+                  74,
+                  93
+                ],
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 25
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 44
+                  }
+                }
+              }
+            ],
+            "range": [
+              66,
+              94
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 17
+              },
+              "end": {
+                "line": 4,
+                "column": 45
+              }
+            }
+          },
+          "range": [
+            53,
+            94
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "end": {
+              "line": 4,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        49,
+        95
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              101,
+              107
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 10
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "express",
+                "range": [
+                  110,
+                  117
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 20
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Router",
+                "range": [
+                  118,
+                  124
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 27
+                  }
+                }
+              },
+              "range": [
+                110,
+                124
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 13
+                },
+                "end": {
+                  "line": 6,
+                  "column": 27
+                }
+              }
+            },
+            "arguments": [],
+            "range": [
+              110,
+              126
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 13
+              },
+              "end": {
+                "line": 6,
+                "column": 29
+              }
+            }
+          },
+          "range": [
+            101,
+            126
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        97,
+        127
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 30
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "get space roles format: /roles?spaceId=xxxx",
+          "range": [
+            129,
+            174
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 45
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "get user roles format: /roles?userId=xxxx",
+          "range": [
+            175,
+            218
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0
+            },
+            "end": {
+              "line": 9,
+              "column": 43
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "get user roles in space format: /roles?userId=xxxx&spaceId=xxxx",
+          "range": [
+            219,
+            284
+          ],
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 65
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              285,
+              291
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 0
+              },
+              "end": {
+                "line": 11,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              292,
+              295
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 7
+              },
+              "end": {
+                "line": 11,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            285,
+            295
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 0
+            },
+            "end": {
+              "line": 11,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/",
+            "raw": "'/'",
+            "range": [
+              296,
+              299
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 11
+              },
+              "end": {
+                "line": 11,
+                "column": 14
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                301,
+                311
+              ],
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 16
+                },
+                "end": {
+                  "line": 11,
+                  "column": 26
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "index",
+              "range": [
+                312,
+                317
+              ],
+              "loc": {
+                "start": {
+                  "line": 11,
+                  "column": 27
+                },
+                "end": {
+                  "line": 11,
+                  "column": 32
+                }
+              }
+            },
+            "range": [
+              301,
+              317
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 16
+              },
+              "end": {
+                "line": 11,
+                "column": 32
+              }
+            }
+          }
+        ],
+        "range": [
+          285,
+          318
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 33
+          }
+        }
+      },
+      "range": [
+        285,
+        319
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 34
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "get space roles format: /roles?spaceId=xxxx",
+          "range": [
+            129,
+            174
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 45
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "get user roles format: /roles?userId=xxxx",
+          "range": [
+            175,
+            218
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0
+            },
+            "end": {
+              "line": 9,
+              "column": 43
+            }
+          }
+        },
+        {
+          "type": "Line",
+          "value": "get user roles in space format: /roles?userId=xxxx&spaceId=xxxx",
+          "range": [
+            219,
+            284
+          ],
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 65
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "get role by name: /roles/name?spaceId=xxx&role=xxx[or name=xxx]",
+          "range": [
+            321,
+            386
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 13,
+              "column": 65
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              387,
+              393
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 0
+              },
+              "end": {
+                "line": 14,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              394,
+              397
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 7
+              },
+              "end": {
+                "line": 14,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            387,
+            397
+          ],
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/name",
+            "raw": "'/name'",
+            "range": [
+              398,
+              405
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 11
+              },
+              "end": {
+                "line": 14,
+                "column": 18
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                407,
+                417
+              ],
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 20
+                },
+                "end": {
+                  "line": 14,
+                  "column": 30
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "getRole",
+              "range": [
+                418,
+                425
+              ],
+              "loc": {
+                "start": {
+                  "line": 14,
+                  "column": 31
+                },
+                "end": {
+                  "line": 14,
+                  "column": 38
+                }
+              }
+            },
+            "range": [
+              407,
+              425
+            ],
+            "loc": {
+              "start": {
+                "line": 14,
+                "column": 20
+              },
+              "end": {
+                "line": 14,
+                "column": 38
+              }
+            }
+          }
+        ],
+        "range": [
+          387,
+          426
+        ],
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        387,
+        427
+      ],
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 40
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "get role by name: /roles/name?spaceId=xxx&role=xxx[or name=xxx]",
+          "range": [
+            321,
+            386
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 13,
+              "column": 65
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              428,
+              434
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 0
+              },
+              "end": {
+                "line": 15,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              435,
+              438
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 7
+              },
+              "end": {
+                "line": 15,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            428,
+            438
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 15,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/user/space",
+            "raw": "'/user/space'",
+            "range": [
+              439,
+              452
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 11
+              },
+              "end": {
+                "line": 15,
+                "column": 24
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                454,
+                464
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 26
+                },
+                "end": {
+                  "line": 15,
+                  "column": 36
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "findAllUserSpaceRole",
+              "range": [
+                465,
+                485
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 37
+                },
+                "end": {
+                  "line": 15,
+                  "column": 57
+                }
+              }
+            },
+            "range": [
+              454,
+              485
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 26
+              },
+              "end": {
+                "line": 15,
+                "column": 57
+              }
+            }
+          }
+        ],
+        "range": [
+          428,
+          486
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 58
+          }
+        }
+      },
+      "range": [
+        428,
+        487
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 59
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "get role by Id: id = number",
+          "range": [
+            489,
+            518
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 29
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              519,
+              525
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 0
+              },
+              "end": {
+                "line": 18,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              526,
+              529
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 7
+              },
+              "end": {
+                "line": 18,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            519,
+            529
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 18,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              530,
+              536
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 11
+              },
+              "end": {
+                "line": 18,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                538,
+                548
+              ],
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 19
+                },
+                "end": {
+                  "line": 18,
+                  "column": 29
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "getRole",
+              "range": [
+                549,
+                556
+              ],
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 30
+                },
+                "end": {
+                  "line": 18,
+                  "column": 37
+                }
+              }
+            },
+            "range": [
+              538,
+              556
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 19
+              },
+              "end": {
+                "line": 18,
+                "column": 37
+              }
+            }
+          }
+        ],
+        "range": [
+          519,
+          557
+        ],
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 38
+          }
+        }
+      },
+      "range": [
+        519,
+        558
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 39
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "get role by Id: id = number",
+          "range": [
+            489,
+            518
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "get role children, url format: /roles/:id/children?mode=leaf[child,all]",
+          "range": [
+            560,
+            633
+          ],
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 73
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              634,
+              640
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 0
+              },
+              "end": {
+                "line": 21,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              641,
+              644
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 7
+              },
+              "end": {
+                "line": 21,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            634,
+            644
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id/children",
+            "raw": "'/:id/children'",
+            "range": [
+              645,
+              660
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 11
+              },
+              "end": {
+                "line": 21,
+                "column": 26
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                662,
+                672
+              ],
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 28
+                },
+                "end": {
+                  "line": 21,
+                  "column": 38
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "getChildren",
+              "range": [
+                673,
+                684
+              ],
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 39
+                },
+                "end": {
+                  "line": 21,
+                  "column": 50
+                }
+              }
+            },
+            "range": [
+              662,
+              684
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 28
+              },
+              "end": {
+                "line": 21,
+                "column": 50
+              }
+            }
+          }
+        ],
+        "range": [
+          634,
+          685
+        ],
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 0
+          },
+          "end": {
+            "line": 21,
+            "column": 51
+          }
+        }
+      },
+      "range": [
+        634,
+        686
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 52
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "get role children, url format: /roles/:id/children?mode=leaf[child,all]",
+          "range": [
+            560,
+            633
+          ],
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 73
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "add user role: post data format: {userId: xxx, roleId: xxxx [role: xxx]}",
+          "range": [
+            688,
+            762
+          ],
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 74
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              763,
+              769
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 0
+              },
+              "end": {
+                "line": 24,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              770,
+              774
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 7
+              },
+              "end": {
+                "line": 24,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            763,
+            774
+          ],
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/user",
+            "raw": "'/user'",
+            "range": [
+              775,
+              782
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 12
+              },
+              "end": {
+                "line": 24,
+                "column": 19
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                784,
+                794
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 21
+                },
+                "end": {
+                  "line": 24,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "addUserRole",
+              "range": [
+                795,
+                806
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 32
+                },
+                "end": {
+                  "line": 24,
+                  "column": 43
+                }
+              }
+            },
+            "range": [
+              784,
+              806
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 21
+              },
+              "end": {
+                "line": 24,
+                "column": 43
+              }
+            }
+          }
+        ],
+        "range": [
+          763,
+          807
+        ],
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 0
+          },
+          "end": {
+            "line": 24,
+            "column": 44
+          }
+        }
+      },
+      "range": [
+        763,
+        808
+      ],
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 45
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "add user role: post data format: {userId: xxx, roleId: xxxx [role: xxx]}",
+          "range": [
+            688,
+            762
+          ],
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 74
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "add batch user role: post data format: [{userId: xxx, roleId: xxxx [role: xxx]},...]",
+          "range": [
+            810,
+            896
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 86
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              897,
+              903
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              904,
+              908
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 7
+              },
+              "end": {
+                "line": 27,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            897,
+            908
+          ],
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/users/batch",
+            "raw": "'/users/batch'",
+            "range": [
+              909,
+              923
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 12
+              },
+              "end": {
+                "line": 27,
+                "column": 26
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                925,
+                935
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 28
+                },
+                "end": {
+                  "line": 27,
+                  "column": 38
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "batchAddUserRole",
+              "range": [
+                936,
+                952
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 39
+                },
+                "end": {
+                  "line": 27,
+                  "column": 55
+                }
+              }
+            },
+            "range": [
+              925,
+              952
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 28
+              },
+              "end": {
+                "line": 27,
+                "column": 55
+              }
+            }
+          }
+        ],
+        "range": [
+          897,
+          953
+        ],
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 0
+          },
+          "end": {
+            "line": 27,
+            "column": 56
+          }
+        }
+      },
+      "range": [
+        897,
+        954
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 57
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "add batch user role: post data format: [{userId: xxx, roleId: xxxx [role: xxx]},...]",
+          "range": [
+            810,
+            896
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 86
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "add roles, post format: [{name:xxx,spaceId:xxxx},....]",
+          "range": [
+            956,
+            1012
+          ],
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 56
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1013,
+              1019
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 0
+              },
+              "end": {
+                "line": 30,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              1020,
+              1024
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 7
+              },
+              "end": {
+                "line": 30,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            1013,
+            1024
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 0
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/batch",
+            "raw": "'/batch'",
+            "range": [
+              1025,
+              1033
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 12
+              },
+              "end": {
+                "line": 30,
+                "column": 20
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1035,
+                1045
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 22
+                },
+                "end": {
+                  "line": 30,
+                  "column": 32
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "batchAdd",
+              "range": [
+                1046,
+                1054
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 33
+                },
+                "end": {
+                  "line": 30,
+                  "column": 41
+                }
+              }
+            },
+            "range": [
+              1035,
+              1054
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 22
+              },
+              "end": {
+                "line": 30,
+                "column": 41
+              }
+            }
+          }
+        ],
+        "range": [
+          1013,
+          1055
+        ],
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 0
+          },
+          "end": {
+            "line": 30,
+            "column": 42
+          }
+        }
+      },
+      "range": [
+        1013,
+        1056
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 43
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "add roles, post format: [{name:xxx,spaceId:xxxx},....]",
+          "range": [
+            956,
+            1012
+          ],
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "add grants",
+          "range": [
+            1058,
+            1070
+          ],
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 12
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1071,
+              1077
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              1078,
+              1082
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 7
+              },
+              "end": {
+                "line": 33,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            1071,
+            1082
+          ],
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 0
+            },
+            "end": {
+              "line": 33,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/grants",
+            "raw": "'/grants'",
+            "range": [
+              1083,
+              1092
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 12
+              },
+              "end": {
+                "line": 33,
+                "column": 21
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1094,
+                1104
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 23
+                },
+                "end": {
+                  "line": 33,
+                  "column": 33
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "addGrants",
+              "range": [
+                1105,
+                1114
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 34
+                },
+                "end": {
+                  "line": 33,
+                  "column": 43
+                }
+              }
+            },
+            "range": [
+              1094,
+              1114
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 23
+              },
+              "end": {
+                "line": 33,
+                "column": 43
+              }
+            }
+          }
+        ],
+        "range": [
+          1071,
+          1115
+        ],
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 33,
+            "column": 44
+          }
+        }
+      },
+      "range": [
+        1071,
+        1116
+      ],
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 45
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "add grants",
+          "range": [
+            1058,
+            1070
+          ],
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 12
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "add child role, findOrCreate",
+          "range": [
+            1118,
+            1148
+          ],
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 30
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1149,
+              1155
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 0
+              },
+              "end": {
+                "line": 36,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              1156,
+              1160
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 7
+              },
+              "end": {
+                "line": 36,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            1149,
+            1160
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1161,
+              1167
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 12
+              },
+              "end": {
+                "line": 36,
+                "column": 18
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1169,
+                1179
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 20
+                },
+                "end": {
+                  "line": 36,
+                  "column": 30
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "addChild",
+              "range": [
+                1180,
+                1188
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 31
+                },
+                "end": {
+                  "line": 36,
+                  "column": 39
+                }
+              }
+            },
+            "range": [
+              1169,
+              1188
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 20
+              },
+              "end": {
+                "line": 36,
+                "column": 39
+              }
+            }
+          }
+        ],
+        "range": [
+          1149,
+          1189
+        ],
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 0
+          },
+          "end": {
+            "line": 36,
+            "column": 40
+          }
+        }
+      },
+      "range": [
+        1149,
+        1190
+      ],
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 41
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "add child role, findOrCreate",
+          "range": [
+            1118,
+            1148
+          ],
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 30
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "post data format: {spaceId=xxx,name=xxx}",
+          "range": [
+            1192,
+            1234
+          ],
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 0
+            },
+            "end": {
+              "line": 38,
+              "column": 42
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1235,
+              1241
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 0
+              },
+              "end": {
+                "line": 39,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              1242,
+              1246
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 7
+              },
+              "end": {
+                "line": 39,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            1235,
+            1246
+          ],
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 0
+            },
+            "end": {
+              "line": 39,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/",
+            "raw": "'/'",
+            "range": [
+              1247,
+              1250
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 12
+              },
+              "end": {
+                "line": 39,
+                "column": 15
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1252,
+                1262
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 17
+                },
+                "end": {
+                  "line": 39,
+                  "column": 27
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "create",
+              "range": [
+                1263,
+                1269
+              ],
+              "loc": {
+                "start": {
+                  "line": 39,
+                  "column": 28
+                },
+                "end": {
+                  "line": 39,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              1252,
+              1269
+            ],
+            "loc": {
+              "start": {
+                "line": 39,
+                "column": 17
+              },
+              "end": {
+                "line": 39,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "range": [
+          1235,
+          1270
+        ],
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 0
+          },
+          "end": {
+            "line": 39,
+            "column": 35
+          }
+        }
+      },
+      "range": [
+        1235,
+        1271
+      ],
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 36
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "post data format: {spaceId=xxx,name=xxx}",
+          "range": [
+            1192,
+            1234
+          ],
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 0
+            },
+            "end": {
+              "line": 38,
+              "column": 42
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1273,
+              1279
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 0
+              },
+              "end": {
+                "line": 41,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "put",
+            "range": [
+              1280,
+              1283
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 7
+              },
+              "end": {
+                "line": 41,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            1273,
+            1283
+          ],
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 0
+            },
+            "end": {
+              "line": 41,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1284,
+              1290
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 11
+              },
+              "end": {
+                "line": 41,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1292,
+                1302
+              ],
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 19
+                },
+                "end": {
+                  "line": 41,
+                  "column": 29
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "update",
+              "range": [
+                1303,
+                1309
+              ],
+              "loc": {
+                "start": {
+                  "line": 41,
+                  "column": 30
+                },
+                "end": {
+                  "line": 41,
+                  "column": 36
+                }
+              }
+            },
+            "range": [
+              1292,
+              1309
+            ],
+            "loc": {
+              "start": {
+                "line": 41,
+                "column": 19
+              },
+              "end": {
+                "line": 41,
+                "column": 36
+              }
+            }
+          }
+        ],
+        "range": [
+          1273,
+          1310
+        ],
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 0
+          },
+          "end": {
+            "line": 41,
+            "column": 37
+          }
+        }
+      },
+      "range": [
+        1273,
+        1311
+      ],
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 41,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1312,
+              1318
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 0
+              },
+              "end": {
+                "line": 42,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "patch",
+            "range": [
+              1319,
+              1324
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 7
+              },
+              "end": {
+                "line": 42,
+                "column": 12
+              }
+            }
+          },
+          "range": [
+            1312,
+            1324
+          ],
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 0
+            },
+            "end": {
+              "line": 42,
+              "column": 12
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1325,
+              1331
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 13
+              },
+              "end": {
+                "line": 42,
+                "column": 19
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1333,
+                1343
+              ],
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 21
+                },
+                "end": {
+                  "line": 42,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "update",
+              "range": [
+                1344,
+                1350
+              ],
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 32
+                },
+                "end": {
+                  "line": 42,
+                  "column": 38
+                }
+              }
+            },
+            "range": [
+              1333,
+              1350
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 21
+              },
+              "end": {
+                "line": 42,
+                "column": 38
+              }
+            }
+          }
+        ],
+        "range": [
+          1312,
+          1351
+        ],
+        "loc": {
+          "start": {
+            "line": 42,
+            "column": 0
+          },
+          "end": {
+            "line": 42,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        1312,
+        1352
+      ],
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1353,
+              1359
+            ],
+            "loc": {
+              "start": {
+                "line": 43,
+                "column": 0
+              },
+              "end": {
+                "line": 43,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "delete",
+            "range": [
+              1360,
+              1366
+            ],
+            "loc": {
+              "start": {
+                "line": 43,
+                "column": 7
+              },
+              "end": {
+                "line": 43,
+                "column": 13
+              }
+            }
+          },
+          "range": [
+            1353,
+            1366
+          ],
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 0
+            },
+            "end": {
+              "line": 43,
+              "column": 13
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1367,
+              1373
+            ],
+            "loc": {
+              "start": {
+                "line": 43,
+                "column": 14
+              },
+              "end": {
+                "line": 43,
+                "column": 20
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1375,
+                1385
+              ],
+              "loc": {
+                "start": {
+                  "line": 43,
+                  "column": 22
+                },
+                "end": {
+                  "line": 43,
+                  "column": 32
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "destroy",
+              "range": [
+                1386,
+                1393
+              ],
+              "loc": {
+                "start": {
+                  "line": 43,
+                  "column": 33
+                },
+                "end": {
+                  "line": 43,
+                  "column": 40
+                }
+              }
+            },
+            "range": [
+              1375,
+              1393
+            ],
+            "loc": {
+              "start": {
+                "line": 43,
+                "column": 22
+              },
+              "end": {
+                "line": 43,
+                "column": 40
+              }
+            }
+          }
+        ],
+        "range": [
+          1353,
+          1394
+        ],
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 0
+          },
+          "end": {
+            "line": 43,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        1353,
+        1395
+      ],
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module",
+            "range": [
+              1397,
+              1403
+            ],
+            "loc": {
+              "start": {
+                "line": 45,
+                "column": 0
+              },
+              "end": {
+                "line": 45,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports",
+            "range": [
+              1404,
+              1411
+            ],
+            "loc": {
+              "start": {
+                "line": 45,
+                "column": 7
+              },
+              "end": {
+                "line": 45,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            1397,
+            1411
+          ],
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 0
+            },
+            "end": {
+              "line": 45,
+              "column": 14
+            }
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "router",
+          "range": [
+            1414,
+            1420
+          ],
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 17
+            },
+            "end": {
+              "line": 45,
+              "column": 23
+            }
+          }
+        },
+        "range": [
+          1397,
+          1420
+        ],
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 0
+          },
+          "end": {
+            "line": 45,
+            "column": 23
+          }
+        }
+      },
+      "range": [
+        1397,
+        1421
+      ],
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 24
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1421
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 45,
+      "column": 24
+    }
+  },
+  "comments": [
+    {
+      "type": "Line",
+      "value": "get space roles format: /roles?spaceId=xxxx",
+      "range": [
+        129,
+        174
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "get user roles format: /roles?userId=xxxx",
+      "range": [
+        175,
+        218
+      ],
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "get user roles in space format: /roles?userId=xxxx&spaceId=xxxx",
+      "range": [
+        219,
+        284
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 65
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "get role by name: /roles/name?spaceId=xxx&role=xxx[or name=xxx]",
+      "range": [
+        321,
+        386
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 65
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "get role by Id: id = number",
+      "range": [
+        489,
+        518
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "get role children, url format: /roles/:id/children?mode=leaf[child,all]",
+      "range": [
+        560,
+        633
+      ],
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 73
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "add user role: post data format: {userId: xxx, roleId: xxxx [role: xxx]}",
+      "range": [
+        688,
+        762
+      ],
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 74
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "add batch user role: post data format: [{userId: xxx, roleId: xxxx [role: xxx]},...]",
+      "range": [
+        810,
+        896
+      ],
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "add roles, post format: [{name:xxx,spaceId:xxxx},....]",
+      "range": [
+        956,
+        1012
+      ],
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "add grants",
+      "range": [
+        1058,
+        1070
+      ],
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 12
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "add child role, findOrCreate",
+      "range": [
+        1118,
+        1148
+      ],
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "post data format: {spaceId=xxx,name=xxx}",
+      "range": [
+        1192,
+        1234
+      ],
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 42
+        }
+      }
+    }
+  ]
+}

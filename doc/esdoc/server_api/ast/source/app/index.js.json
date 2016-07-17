@@ -1,0 +1,1945 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "Literal",
+        "value": "use strict",
+        "raw": "'use strict'",
+        "range": [
+          0,
+          12
+        ],
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 12
+          }
+        }
+      },
+      "range": [
+        0,
+        13
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "express",
+            "range": [
+              19,
+              26
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 4
+              },
+              "end": {
+                "line": 3,
+                "column": 11
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                29,
+                36
+              ],
+              "loc": {
+                "start": {
+                  "line": 3,
+                  "column": 14
+                },
+                "end": {
+                  "line": 3,
+                  "column": 21
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "express",
+                "raw": "'express'",
+                "range": [
+                  37,
+                  46
+                ],
+                "loc": {
+                  "start": {
+                    "line": 3,
+                    "column": 22
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 31
+                  }
+                }
+              }
+            ],
+            "range": [
+              29,
+              47
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 14
+              },
+              "end": {
+                "line": 3,
+                "column": 32
+              }
+            }
+          },
+          "range": [
+            19,
+            47
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 4
+            },
+            "end": {
+              "line": 3,
+              "column": 32
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        15,
+        48
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "controller",
+            "range": [
+              53,
+              63
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 4
+              },
+              "end": {
+                "line": 4,
+                "column": 14
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "Identifier",
+              "name": "require",
+              "range": [
+                66,
+                73
+              ],
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 17
+                },
+                "end": {
+                  "line": 4,
+                  "column": 24
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "./app.controller",
+                "raw": "'./app.controller'",
+                "range": [
+                  74,
+                  92
+                ],
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 25
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 43
+                  }
+                }
+              }
+            ],
+            "range": [
+              66,
+              93
+            ],
+            "loc": {
+              "start": {
+                "line": 4,
+                "column": 17
+              },
+              "end": {
+                "line": 4,
+                "column": 44
+              }
+            }
+          },
+          "range": [
+            53,
+            93
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 4
+            },
+            "end": {
+              "line": 4,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        49,
+        94
+      ],
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              100,
+              106
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 4
+              },
+              "end": {
+                "line": 6,
+                "column": 10
+              }
+            }
+          },
+          "init": {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "express",
+                "range": [
+                  109,
+                  116
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 20
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "Router",
+                "range": [
+                  117,
+                  123
+                ],
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 21
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 27
+                  }
+                }
+              },
+              "range": [
+                109,
+                123
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 13
+                },
+                "end": {
+                  "line": 6,
+                  "column": 27
+                }
+              }
+            },
+            "arguments": [],
+            "range": [
+              109,
+              125
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 13
+              },
+              "end": {
+                "line": 6,
+                "column": 29
+              }
+            }
+          },
+          "range": [
+            100,
+            125
+          ],
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 4
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        96,
+        126
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 30
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Provides the base sever side restful api under app module\n * \n * Using Rails-like standard naming convention for endpoints.\n * \n * GET     /api/apps              ->  index\n * POST    /api/apps              ->  create\n * POST    /api/apps/bulk         ->  bulk create apps\n * GET     /api/apps/:id          ->  get app by id\n * PUT     /api/apps/:id          ->  update\n * DELETE  /api/apps/:id          ->  destroy\n * \n * @module server/api/app\n ",
+          "range": [
+            128,
+            583
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              585,
+              591
+            ],
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 0
+              },
+              "end": {
+                "line": 23,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              592,
+              595
+            ],
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 7
+              },
+              "end": {
+                "line": 23,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            585,
+            595
+          ],
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/",
+            "raw": "'/'",
+            "range": [
+              596,
+              599
+            ],
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 11
+              },
+              "end": {
+                "line": 23,
+                "column": 14
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                601,
+                611
+              ],
+              "loc": {
+                "start": {
+                  "line": 23,
+                  "column": 16
+                },
+                "end": {
+                  "line": 23,
+                  "column": 26
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "index",
+              "range": [
+                612,
+                617
+              ],
+              "loc": {
+                "start": {
+                  "line": 23,
+                  "column": 27
+                },
+                "end": {
+                  "line": 23,
+                  "column": 32
+                }
+              }
+            },
+            "range": [
+              601,
+              617
+            ],
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 16
+              },
+              "end": {
+                "line": 23,
+                "column": 32
+              }
+            }
+          }
+        ],
+        "range": [
+          585,
+          618
+        ],
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 0
+          },
+          "end": {
+            "line": 23,
+            "column": 33
+          }
+        }
+      },
+      "range": [
+        585,
+        619
+      ],
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 34
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Provides the base sever side restful api under app module\n * \n * Using Rails-like standard naming convention for endpoints.\n * \n * GET     /api/apps              ->  index\n * POST    /api/apps              ->  create\n * POST    /api/apps/bulk         ->  bulk create apps\n * GET     /api/apps/:id          ->  get app by id\n * PUT     /api/apps/:id          ->  update\n * DELETE  /api/apps/:id          ->  destroy\n * \n * @module server/api/app\n ",
+          "range": [
+            128,
+            583
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "router.get('/byname', controller.show);",
+          "range": [
+            620,
+            661
+          ],
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 41
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              662,
+              668
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 0
+              },
+              "end": {
+                "line": 25,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "get",
+            "range": [
+              669,
+              672
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 7
+              },
+              "end": {
+                "line": 25,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            662,
+            672
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 0
+            },
+            "end": {
+              "line": 25,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              673,
+              679
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 11
+              },
+              "end": {
+                "line": 25,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                681,
+                691
+              ],
+              "loc": {
+                "start": {
+                  "line": 25,
+                  "column": 19
+                },
+                "end": {
+                  "line": 25,
+                  "column": 29
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "show",
+              "range": [
+                692,
+                696
+              ],
+              "loc": {
+                "start": {
+                  "line": 25,
+                  "column": 30
+                },
+                "end": {
+                  "line": 25,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              681,
+              696
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 19
+              },
+              "end": {
+                "line": 25,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "range": [
+          662,
+          697
+        ],
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 0
+          },
+          "end": {
+            "line": 25,
+            "column": 35
+          }
+        }
+      },
+      "range": [
+        662,
+        698
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 36
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "router.get('/byname', controller.show);",
+          "range": [
+            620,
+            661
+          ],
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "router.get('/byname/:name', controller.getAppByName);",
+          "range": [
+            699,
+            754
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 55
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              755,
+              761
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 0
+              },
+              "end": {
+                "line": 27,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              762,
+              766
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 7
+              },
+              "end": {
+                "line": 27,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            755,
+            766
+          ],
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/bulk",
+            "raw": "'/bulk'",
+            "range": [
+              767,
+              774
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 12
+              },
+              "end": {
+                "line": 27,
+                "column": 19
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                776,
+                786
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 21
+                },
+                "end": {
+                  "line": 27,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "bulkCreate",
+              "range": [
+                787,
+                797
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 32
+                },
+                "end": {
+                  "line": 27,
+                  "column": 42
+                }
+              }
+            },
+            "range": [
+              776,
+              797
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 21
+              },
+              "end": {
+                "line": 27,
+                "column": 42
+              }
+            }
+          }
+        ],
+        "range": [
+          755,
+          798
+        ],
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 0
+          },
+          "end": {
+            "line": 27,
+            "column": 43
+          }
+        }
+      },
+      "range": [
+        755,
+        799
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 44
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "router.get('/byname/:name', controller.getAppByName);",
+          "range": [
+            699,
+            754
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 55
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "router.post('/joinSpace', controller.joinSpace);",
+          "range": [
+            800,
+            850
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 50
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              851,
+              857
+            ],
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "post",
+            "range": [
+              858,
+              862
+            ],
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 7
+              },
+              "end": {
+                "line": 29,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            851,
+            862
+          ],
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 11
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/",
+            "raw": "'/'",
+            "range": [
+              863,
+              866
+            ],
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 12
+              },
+              "end": {
+                "line": 29,
+                "column": 15
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                868,
+                878
+              ],
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 17
+                },
+                "end": {
+                  "line": 29,
+                  "column": 27
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "create",
+              "range": [
+                879,
+                885
+              ],
+              "loc": {
+                "start": {
+                  "line": 29,
+                  "column": 28
+                },
+                "end": {
+                  "line": 29,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              868,
+              885
+            ],
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 17
+              },
+              "end": {
+                "line": 29,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "range": [
+          851,
+          886
+        ],
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 0
+          },
+          "end": {
+            "line": 29,
+            "column": 35
+          }
+        }
+      },
+      "range": [
+        851,
+        887
+      ],
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 36
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "router.post('/joinSpace', controller.joinSpace);",
+          "range": [
+            800,
+            850
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": "router.post('/app', controller.createApp);",
+          "range": [
+            888,
+            932
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 0
+            },
+            "end": {
+              "line": 30,
+              "column": 44
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              933,
+              939
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 0
+              },
+              "end": {
+                "line": 31,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "put",
+            "range": [
+              940,
+              943
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 7
+              },
+              "end": {
+                "line": 31,
+                "column": 10
+              }
+            }
+          },
+          "range": [
+            933,
+            943
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 31,
+              "column": 10
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              944,
+              950
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 11
+              },
+              "end": {
+                "line": 31,
+                "column": 17
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                952,
+                962
+              ],
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 19
+                },
+                "end": {
+                  "line": 31,
+                  "column": 29
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "update",
+              "range": [
+                963,
+                969
+              ],
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 30
+                },
+                "end": {
+                  "line": 31,
+                  "column": 36
+                }
+              }
+            },
+            "range": [
+              952,
+              969
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 19
+              },
+              "end": {
+                "line": 31,
+                "column": 36
+              }
+            }
+          }
+        ],
+        "range": [
+          933,
+          970
+        ],
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 0
+          },
+          "end": {
+            "line": 31,
+            "column": 37
+          }
+        }
+      },
+      "range": [
+        933,
+        971
+      ],
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 38
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": "router.post('/app', controller.createApp);",
+          "range": [
+            888,
+            932
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 0
+            },
+            "end": {
+              "line": 30,
+              "column": 44
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              972,
+              978
+            ],
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 0
+              },
+              "end": {
+                "line": 32,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "patch",
+            "range": [
+              979,
+              984
+            ],
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 7
+              },
+              "end": {
+                "line": 32,
+                "column": 12
+              }
+            }
+          },
+          "range": [
+            972,
+            984
+          ],
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 12
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              985,
+              991
+            ],
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 13
+              },
+              "end": {
+                "line": 32,
+                "column": 19
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                993,
+                1003
+              ],
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 21
+                },
+                "end": {
+                  "line": 32,
+                  "column": 31
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "update",
+              "range": [
+                1004,
+                1010
+              ],
+              "loc": {
+                "start": {
+                  "line": 32,
+                  "column": 32
+                },
+                "end": {
+                  "line": 32,
+                  "column": 38
+                }
+              }
+            },
+            "range": [
+              993,
+              1010
+            ],
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 21
+              },
+              "end": {
+                "line": 32,
+                "column": 38
+              }
+            }
+          }
+        ],
+        "range": [
+          972,
+          1011
+        ],
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 0
+          },
+          "end": {
+            "line": 32,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        972,
+        1012
+      ],
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "router",
+            "range": [
+              1013,
+              1019
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "delete",
+            "range": [
+              1020,
+              1026
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 7
+              },
+              "end": {
+                "line": 33,
+                "column": 13
+              }
+            }
+          },
+          "range": [
+            1013,
+            1026
+          ],
+          "loc": {
+            "start": {
+              "line": 33,
+              "column": 0
+            },
+            "end": {
+              "line": 33,
+              "column": 13
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "/:id",
+            "raw": "'/:id'",
+            "range": [
+              1027,
+              1033
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 14
+              },
+              "end": {
+                "line": 33,
+                "column": 20
+              }
+            }
+          },
+          {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "name": "controller",
+              "range": [
+                1035,
+                1045
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 22
+                },
+                "end": {
+                  "line": 33,
+                  "column": 32
+                }
+              }
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "destroy",
+              "range": [
+                1046,
+                1053
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 33
+                },
+                "end": {
+                  "line": 33,
+                  "column": 40
+                }
+              }
+            },
+            "range": [
+              1035,
+              1053
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 22
+              },
+              "end": {
+                "line": 33,
+                "column": 40
+              }
+            }
+          }
+        ],
+        "range": [
+          1013,
+          1054
+        ],
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 33,
+            "column": 41
+          }
+        }
+      },
+      "range": [
+        1013,
+        1055
+      ],
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "module",
+            "range": [
+              1057,
+              1063
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 6
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "exports",
+            "range": [
+              1064,
+              1071
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 7
+              },
+              "end": {
+                "line": 35,
+                "column": 14
+              }
+            }
+          },
+          "range": [
+            1057,
+            1071
+          ],
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 14
+            }
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "router",
+          "range": [
+            1074,
+            1080
+          ],
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 17
+            },
+            "end": {
+              "line": 35,
+              "column": 23
+            }
+          }
+        },
+        "range": [
+          1057,
+          1080
+        ],
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": 23
+          }
+        }
+      },
+      "range": [
+        1057,
+        1081
+      ],
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 24
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    0,
+    1081
+  ],
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 35,
+      "column": 24
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Provides the base sever side restful api under app module\n * \n * Using Rails-like standard naming convention for endpoints.\n * \n * GET     /api/apps              ->  index\n * POST    /api/apps              ->  create\n * POST    /api/apps/bulk         ->  bulk create apps\n * GET     /api/apps/:id          ->  get app by id\n * PUT     /api/apps/:id          ->  update\n * DELETE  /api/apps/:id          ->  destroy\n * \n * @module server/api/app\n ",
+      "range": [
+        128,
+        583
+      ],
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/byname', controller.show);",
+      "range": [
+        620,
+        661
+      ],
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.get('/byname/:name', controller.getAppByName);",
+      "range": [
+        699,
+        754
+      ],
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/joinSpace', controller.joinSpace);",
+      "range": [
+        800,
+        850
+      ],
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": "router.post('/app', controller.createApp);",
+      "range": [
+        888,
+        932
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 44
+        }
+      }
+    }
+  ]
+}
