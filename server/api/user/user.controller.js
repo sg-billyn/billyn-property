@@ -145,7 +145,7 @@ export function me(req, res, next) {
   User.belongsToMany(Role, {as: 'roles', through: UserRole});
   Role.belongsToMany(User, {as: 'users', through: UserRole});
 
-  User.find({
+  return User.find({
     where: {
       _id: userId
     },

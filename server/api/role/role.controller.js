@@ -244,7 +244,7 @@ export function addUserRole(req, res) {
   if (rId > 0 && uId > 0) {
     return Role.findById(rId)
       .then(function (role) {
-        UserRole.findOrCreate({
+        return UserRole.findOrCreate({
           where: {
             roleId: rId,
             userId: uId,
@@ -267,7 +267,7 @@ export function addUserRole(req, res) {
         fullname: 'root.role.' + rName
       }
     }).spread(function (role, created) {
-      UserRole.findOrCreate({
+      return UserRole.findOrCreate({
         where: {
           roleId: role._id,
           userId: uId,

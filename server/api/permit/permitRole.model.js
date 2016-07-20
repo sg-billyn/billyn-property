@@ -85,7 +85,7 @@ export default function(sequelize, DataTypes) {
 				} */
 
 
-				console.log('1 bulkPermitRoleData:', JSON.stringify(bulkPermitRoleData));				
+				//console.log('1 bulkPermitRoleData:', JSON.stringify(bulkPermitRoleData));				
 
 				return Promise.each(bulkPermitRoleData, function(prData){
 
@@ -94,7 +94,7 @@ export default function(sequelize, DataTypes) {
 
 					return new Promise(function(resolve, reject){
 						//console.log('3');
-						console.log('1 prData:',JSON.stringify(prData));
+						//console.log('1 prData:',JSON.stringify(prData));
 						if(prData.permit && ! prData.permitId){
 							var permitData = {};
 							if(typeof prData.permit === 'object'){
@@ -112,7 +112,7 @@ export default function(sequelize, DataTypes) {
 								permitData.ownerId = prData.ownerId;
 							}
 							
-							console.log('permitData',JSON.stringify(permitData));
+							//console.log('permitData',JSON.stringify(permitData));
 							
 							return PermitModel.addPermit(permitData).then(function(permit){
 								prData.permitId = permit._id;
@@ -122,7 +122,7 @@ export default function(sequelize, DataTypes) {
 							return resolve(null);
 						}
 					}).then(function(){
-						console.log('2 prData:',JSON.stringify(prData));
+						//console.log('2 prData:',JSON.stringify(prData));
 						//console.log('4 bulkPermitRoleData:', JSON.stringify(bulkPermitRoleData));
 						if(prData.role && ! prData.roleId){
 							var roleData = {};
@@ -135,7 +135,7 @@ export default function(sequelize, DataTypes) {
 							
 							roleData.spaceId = prData.spaceId;
 
-							console.log('roleData:',JSON.stringify(roleData));
+							//console.log('roleData:',JSON.stringify(roleData));
 
 							return RoleModel.addRole(roleData).then(function(role){
 								//console.log('role:',JSON.stringify(role));

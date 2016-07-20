@@ -261,7 +261,7 @@
 						spaceId: newSpace._id,
 						name: newSpace.name + "_" + "circle",
 						type: 'spacePrivateCircle',
-						alias: newSpace.name + "_" + "circle"
+						alias: '机构朋友圈'
 					}).then(function () {
 						return $q.when(newSpace);
 					})
