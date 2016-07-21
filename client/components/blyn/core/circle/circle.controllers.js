@@ -109,8 +109,10 @@
     }
 
     class ManageCircleSpacesController {
-        constructor($rootScope, BCircle, $state, $stateParams, BCollab) {
+        constructor($rootScope, BCircle, $state, $stateParams, BCollab, $uibModal,$document) {
             var ctrl = this;
+            ctrl.$uibModal = $uibModal;
+            ctrl.$document = $document;
             ctrl.$rootScope = $rootScope;
             ctrl.$state = $state;
             ctrl.BCircle = BCircle;
@@ -170,6 +172,67 @@
             ctrl.BCircle.addCollab(collab, circle, 'approved').then(function (circleCollab) {
                 collab.CircleCollab = circleCollab;
             })
+        }
+
+        toggleJoinStatus(space, action) {
+
+            var status = null;
+
+            if (action === 'approve') {
+                status = 'approved';
+            }
+
+            if (action === 'reject') {
+                status = 'rejected';
+            }
+
+            if (status) {
+                var circle = this.$rootScope.current.circle;
+                this.BCircle.addCircleSpace(space, circle, status).then(function (circleSpace) {
+                    space.CircleSpace.joinStatus = circleSpace.joinStatus;
+                })
+            }
+
+        }
+
+        getJoinActionList(space) {
+            var joinStatus = space.CircleSpace.joinStatus;
+
+            if (joinStatus.toLowerCase() === 'applying') {
+                return ['approve', 'reject'];
+            }
+
+            if (joinStatus.toLowerCase() === 'approved') {
+                return ['reject'];
+            }
+
+            if (joinStatus.toLowerCase() === 'rejected') {
+                return ['approve'];
+            }
+        }
+
+        createCollab() {
+            var that = this;
+            var $document = this.$document;
+            var modalInstance = this.$uibModal.open({
+                animation: true,
+                appendTo: angular.element("#showManageCircleSpaces"),
+                templateUrl: 'components/blyn/core/circle/view/modalAddCollab.html',
+                controller: 'CreateCollabController',
+                windowClass: 'center-modal',
+                size: 'lg',
+                resolve: {
+                    items: function () {
+                        return [];
+                    }
+                }
+            });
+
+            modalInstance.result.then(function (selectedItem) {
+                that.selected = selectedItem;
+            }, function () {
+                //$log.info('Modal dismissed at: ' + new Date());
+            });
         }
     }
 
@@ -442,6 +505,8 @@
 
             ctrl.showSlice;
         }
+
+
     }
 
     /*
@@ -468,7 +533,7 @@
                 ctrl.collabs = collabs;
             })
         }
-    }
+    }*/
 
     class CreateCollabController {
 
@@ -542,7 +607,7 @@
             return ret;
         }
     }
-    */
+    
 
     angular.module('billynApp.core')
         .controller('CircleController', CircleController)

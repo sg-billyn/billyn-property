@@ -9,7 +9,7 @@
         </div>
     </div>
 </div>
-<div class="dashboard row">
+<div class="dashboard row" id="showManageCircleSpaces">
     <div class="col-sm-12">
         <!-- dashboard-header -->
 
@@ -17,7 +17,7 @@
         <!-- dashboard-body -->
         <div class="dashboard-body">
             <div class="dashboard-title">
-                <b>机构圈机构---当前机构圈：{{vm.circle.alias}}</b>
+                <b>当前机构圈：{{vm.circle.alias}}</b>
             </div>
 
             <div class="row">
@@ -30,7 +30,7 @@
                             </a>
                         </div>
                         <div class="appBookmark">
-                            <div><a href="#" ng-click="vm.addCircleCollab(collab)"><i class="fa fa-plus"></i> 创建协作</a></div>
+                            <div><a href="#" ng-click="vm.createCollab()"><i class="fa fa-plus"></i> 创建协作</a></div>
                         </div>
                         <div class="appBookmark">
                             <div>
@@ -59,8 +59,20 @@
                         </div>
 
                         <div class="appBookmark">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-7 col-xs-7"><b>状态：{{space.CircleSpace.joinStatus}}</b></div>
+                                <div class="col-md-5 col-sm-5 col-xs-5">
+                                    <div ng-repeat="(index,action) in vm.getJoinActionList(space)" class="pull-right">
+                                        {{index > 0 ? "&nbsp;|&nbsp;" : ""}}<a href="#" ng-click="vm.toggleJoinStatus(space, action)">{{action}}</a> 
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="appBookmark">
                             <div>
-                                <a href="#" ng-click="vm.toggleShowList('space'+space._id+'_m')"><i class="fa fa-wrench"></i> 机构的协作</a>
+                                <a href="#" ng-click="vm.toggleShowList('space'+space._id+'_m')"><i class="fa fa-wrench"></i> 管理分享的协作</a>
                             </div>
                             <div style="margin-top:10px;padding-right:10px;padding-left:10px;" ng-show="vm.showList['space'+space._id+'_m']">
                                 <div ng-repeat="(index, collab) in space.collabs">
@@ -68,7 +80,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- <div style="min-height: 258px"> -->
                     </div>
                 </div>

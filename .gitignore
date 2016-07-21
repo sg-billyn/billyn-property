@@ -8,4 +8,4 @@ dist
 npm-debug.log
 coverage
 /doc/esdoc/server_api
-/dev.sqlite
+dev.sqlite
