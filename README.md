@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# billyn
-=======
+
 # billyn property
 >>>>>>> 7df0ed2638c621c7583aafa48a6cff2cc2cb5c58
 
