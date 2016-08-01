@@ -21,7 +21,7 @@ import sqldb from '../sqldb';
 import expressSequelizeSession from 'express-sequelize-session';
 var Store = expressSequelizeSession(session.Store);
 
-export default function(app) {
+export default function (app) {
   var env = app.get('env');
 
   app.set('views', config.root + '/server/views');
@@ -33,6 +33,13 @@ export default function(app) {
   app.use(methodOverride());
   app.use(cookieParser());
   app.use(passport.initialize());
+
+  //allow cross domain
+  app.all('/', function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    next();
+  });
 
   // Persist sessions with mongoStore / sequelizeStore
   // We need to enable sessions for passport-twitter because it's an
